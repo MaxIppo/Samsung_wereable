@@ -2,11 +2,11 @@
 ## SAMSUNG WEREABLE PROJECT: DELIVER A TIDY DATA SET FOR FURTHER ANALYSIS
 #The process for delivering SAMSUNG WEREABLE TIDY DATA SET starts from a raw data environment sit in UCI MLR
 # The process follows some steps:
-# 1) Download the .zip data in the local PC;
+# 1) Download the .zip data in the local PC
 a subdirectory of the working directory (i.e. "./run_analysis") is created where the .zip file is downloaded. The script cretaes the drectory if it wold not exist;
-# 2) Extract .zip file;
+# 2) Extract .zip file
 The extraction process creates a subdirectory structure ".../UCI HAR Dataset/..." of the directory where the .zip fil is sit. in a specific directory structure, where the data are split based on "purpose" o f data (i.e. training and test). In each directory (i.e. training and test) there are 3 txt files; The following list describe training data files, symmetric naming is used for test files (i.e. prefix "test" is used instead of "training":  X_train.txt (represents for each row the data sampled; it is the core data set file), subject_train.txt (that identify the id of the Samsung device users, called "individuals"; each raw of the data set correspond only to one individual) , y_train.txt (describe the activity performed by each individual during each data sampling)
-# 3) Upload raw data files in R;
+# 3) Upload raw data files in R
 Each data is uploaded in one specific Data Frame: 
 train_ds_x <- X_train.txt
 train_subject <- subject_train.txt
