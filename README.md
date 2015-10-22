@@ -1,7 +1,11 @@
 
-#
-library(data.table)
-library(stringr)
+## SAMSUNG WEREABLE PROJECT: DELIVER A TIDY DATA SET FOR FURTHER ANALYSIS
+# The process for delivering SAMSUNG WEREABLE TIDY DATA SET starts from a raw data environment sit in UCI MLR
+# The process follow some steps:
+# 1) Download the .zip data
+on the local PC, in a subdirectory of the working directory (i.e. "./run_analysis")
+# 2) Extract .zip file 
+in a specific directory structure, where the data are split based on purpose (i.e. training and test)
 
 #Dowload .zip File
 setwd("D:/DATA_SCIENCE/Get_the_Data/week_3_project")
